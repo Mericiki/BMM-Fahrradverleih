@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0;                                      /* Außenabstand definieren  */
+    padding: 0;                                     /* Innenabstand definieren */
 }
 .container{
-    background: url(img/1.jpg);
-    height: 100vh;
+    background: url(img/1.jpg);                    /* Hintergrundbild einfügen  (CTRL+Space) */
+    height: 100vh;                                 /*   (vh=viewport height) */
     background-size: 100% 100%;
 }
 .container .navbar{
