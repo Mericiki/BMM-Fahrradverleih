@@ -20,7 +20,7 @@
     margin-top: 20px;
 }
 .navbar .logo a{                                 
-    text-decoration:none;                         /* ohne Unterstrich */
+    text-decoration:none;                        /* ohne Unterstrich */
     font-size: 30px;
     font-family: Tahoma;
     color: #f3f3f3;                            /* Farbcodes: https://www.color-hex.com/ */
@@ -41,20 +41,20 @@
     font-size: 30px;
     padding: 10px;
     font-family: Roboto;                        /* Schriftart->   https://fonts.google.com/ */
-    transition: .5s;
+    transition: .5s;                            /* Übergang zwischen zwei Zuständen des Elements */
 }
 .navbar ul li a.active,
-.navbar ul li a:hover{                         /* Mouseover-Effekt */  
-    background:#ff6e00;
-    border-radius: 6px;                        /* die Ecken von Boxen runden */
+.navbar ul li a:hover{                          /* Mouseover-Effekt */  
+    background:#ff6e00  ;
+    border-radius: 6px;                         /* die Ecken von Boxen runden */
 }
 .container .center{
-position:absolute;
+position:absolute;                              /* die Elemente positionieren */
 top: 80%;
 left: 95%;
 transform: translate(-50%,-50%);
 font-family: Tahoma;
-user-select: none;
+user-select: none;                             /* Nutzer dürfen nicht Inhalte mit der Maus auswählen */
 }
 .center h1{
     color:black;
@@ -77,12 +77,12 @@ user-select: none;
     color:#ffb3b3;
     background: #ff6e00;
     border:solid 2px red;
-    border-radius:25px;
-    cursor:pointer;
+    border-radius:25px;                             /* die Ecken von Boxen runden */
+    cursor:pointer;                                 /* Mauszeiger */
     outline:none;
-    transition: .5s;
+    transition: .5s;                                /* Übergang zwischen zwei Zuständen des Elements */
 }
-.buttons button:hover{
+    .buttons button:hover{
     background:#fff;
 
 }
