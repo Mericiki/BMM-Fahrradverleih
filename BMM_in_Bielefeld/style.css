@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');  /* Schriftart importieren  */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');  /* Schriftart importieren  */
 *{
     margin: 0;                                      /* Außenabstand definieren  */
     padding: 0;                                     /* Innenabstand definieren */
 }
-.container{
+.container {
     background: url(img/1.jpg);                    /* Hintergrundbild einfügen  (CTRL+Space) */
     height: 100vh;                                 /* vh=viewport height, 100vh= volle Höhe des Bildschirms */
     background-size: 100% 100%;                    /* Hintergrundgröße Höhe Breite */
+    
 }
+
 .container .navbar{                                /* Design des Navigationsmenüs */
     width: 100%;
     height: 80px;
     background: rgba(22, 112, 214, 0.4);        /* rgba= red, green, blue, alpha(Transparenz) */
 }
-
 .navbar .logo{                                    /* Ausrichtung des Logos */
     display:inline-block;
     margin-left: 50px;
